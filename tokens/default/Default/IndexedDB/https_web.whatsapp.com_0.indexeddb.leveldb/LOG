@@ -1,0 +1,14 @@
+2025/07/13-02:46:28.037 2f44 Reusing MANIFEST D:\0000\Yoan-app\server-yoan-chat\tokens\default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/13-02:46:28.039 2f44 Recovering log #1577
+2025/07/13-02:46:28.094 2f44 Reusing old log D:\0000\Yoan-app\server-yoan-chat\tokens\default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001577.log 
+2025/07/13-02:46:29.191 3bb0 Level-0 table #1585: started
+2025/07/13-02:46:29.223 3bb0 Level-0 table #1585: 551186 bytes OK
+2025/07/13-02:46:29.234 3bb0 Delete type=0 #1577
+2025/07/13-02:46:29.235 2f44 Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at '\x000\x00\x00\x05' @ 5527348 : 1
+2025/07/13-02:46:29.235 2f44 Compacting 1@0 + 1@1 files
+2025/07/13-02:46:29.274 2f44 Generated table #1586@0: 10852 keys, 202024 bytes
+2025/07/13-02:46:29.314 2f44 Generated table #1587@0: 12860 keys, 328790 bytes
+2025/07/13-02:46:29.314 2f44 Compacted 1@0 + 1@1 files => 530814 bytes
+2025/07/13-02:46:29.330 2f44 compacted to: files[ 0 2 35 0 0 0 0 ]
+2025/07/13-02:46:29.332 2f44 Delete type=2 #1585
+2025/07/13-02:46:29.332 2f44 Manual compaction at level-0 from '\x000\x00\x00\x05' @ 5527348 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)

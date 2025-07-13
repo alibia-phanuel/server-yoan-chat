@@ -1,0 +1,11 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const facebookController_1 = require("../controllers/facebookController");
+const router = express_1.default.Router();
+// GET /facebook/posts/:page (ex: /facebook/posts/afrikagadget)
+router.get("/posts/:page", facebookController_1.fetchPosts);
+exports.default = router;
